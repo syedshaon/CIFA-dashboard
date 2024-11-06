@@ -1,0 +1,103 @@
+
+:root,
+[data-bs-theme=light] {
+  --bg-color: #ffffff;
+  --text-color: #111827;
+}
+
+[data-theme='dark'], 
+[data-bs-theme=dark] {
+  --bg-color: #111827;
+  --text-color: #ffffff;
+}
+
+// Custom Colors
+
+$cf-primary: #375DFB;
+$cf-secondary: #111827;
+$cf-tertiary: #323B49;
+$cf-info: #5E6877;
+$cf-light: #E9EAEC;
+$cf-off-white: #F8F8F8;
+$cf-white: #ffffff;
+
+// Colors
+// $primary: #0d6efd;
+$primary: #375DFB;
+$secondary: #6c757d;
+$success: #198754;
+$info: #0dcaf0;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #212529;
+$body-bg: #ffffff;
+$body-color: #212529;
+$link-color: $primary;
+$link-hover-color: darken($primary, 15%);
+$border-color: #dee2e6;
+$border-radius: 0.25rem;
+
+
+// Spacing
+
+$spacer: 1rem; // Default spacing unit
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3
+);
+
+
+  //  Typography
+  $font-family-sans-serif: "Roboto", sans-serif;
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-weight-base: 400;
+$font-size-base: 1rem;
+$line-height-base: 1.5;
+$headings-font-weight: 500;
+$headings-line-height: 1.2;
+$h1-font-size: 2.5rem;
+$h2-font-size: 2rem;
+$h3-font-size: 1.75rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
+
+// Buttons
+$btn-padding-y: 0.375rem;
+$btn-padding-x: 0.75rem;
+$btn-border-radius: 0.25rem;
+$btn-font-weight: 400;
+$btn-primary-bg: $primary;
+$btn-primary-border: $primary;
+$btn-secondary-bg: $secondary;
+$btn-secondary-border: $secondary;
+
+
+// Grid and Layout
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl: 1920px
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+  xxxl: 1920px
+);
+$gutter-width: 1.5rem;
+
+
+ 

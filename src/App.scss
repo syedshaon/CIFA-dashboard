@@ -1,0 +1,9 @@
+@import "scss/variables";
+@import 'bootstrap/scss/bootstrap.scss';
+@import "scss/buttons";
+
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
